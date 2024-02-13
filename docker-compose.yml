@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  noip-duc:
+    build: .
+    image: duc-docker
+    environment:
+      - DUC_USERNAME=username
+      - DUC_PASSWORD=password
+    container_name: duc-docker-container
+    restart: always
+    detach: true
