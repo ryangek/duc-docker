@@ -37,9 +37,3 @@ docker logs duc-docker-container
 Replace **duc-docker-container** with the name you want to give to your Docker container, **username** with your No-IP username, **password** with your No-IP password, and **duc-docker** with the name of the Docker image you built in the previous step.
 
 The -d flag runs the container in detached mode (in the background).
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-```
-Feel free to customize this README according to your specific requirements and project details.
-```
